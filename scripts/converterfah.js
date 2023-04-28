@@ -20,5 +20,5 @@ function onConvertBtnFahClicked() {
 }
 
 function onResetBtnClicked() {
-  resetBtn = "";
+  const formEl = document.getElementById("form").reset();
 }

@@ -12,9 +12,12 @@
       <a href="./home.html"> Home</a>
       <a href="./fahrenheit.html">Fahrenheit to Celcius</a>
     </nav>
-    <p>Celcius: <input type="number" id="celField" /></p>
-    <p><input type="button" id="convertBtnCel" value="Convert To:" /></p>
-    <p>Fahrenheit: <input type="number" id="fahField" readonly /></p>
+    <form id="form">
+      <p>Celcius: <input type="number" id="celField" /></p>
+      <p><input type="button" id="convertBtnCel" value="Convert To:" /></p>
+      <p>Fahrenheit: <input type="number" id="fahField" readonly /></p>
+    </form>
+    <p><input type="reset" id="resetBtn" /></p>
     <script src="scripts/converter.js"></script>
   </body>
 </html>
